@@ -41,7 +41,7 @@ const TopNavbar = () => {
                                 <a className='btn' href=''>LinkedIn</a>
                             </Col>
                             <Col>
-                                <img className='image-ragul' src='./src/assets/Ragul.png' alt="image" />
+                                <img className='image-ragul' src='./src/assets/Ragul.jpg' alt="image" />
                             </Col>
                         </Row>
                     </Container>
