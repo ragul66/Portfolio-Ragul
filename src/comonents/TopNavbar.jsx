@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import image1 from '../assets/Ragul.png'
-import Link from 'react-router-dom'
 import '../App.css'
 
 const TopNavbar = () => {
@@ -35,13 +34,13 @@ const TopNavbar = () => {
                     <Container className='banner'>
                         <Row>
                             <Col>
-                                <h1>Let's Get Connected</h1>
+                                <h1>Lets Get Connected</h1>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus distinctio labore vero provident? Voluptatenatus eum placeat necessitatibus sunt earum cum, tenetur illo doloremque ducimus voluptas ipsa officiis totam excepturi.</p>
                                 <a className='btn'>Explore More</a>
                                 <a className='btn' href=''>LinkedIn</a>
                             </Col>
                             <Col>
-                                <Link to={image1}></Link>
+                                <img className='image-ragul' src={image1} alt="image" />
                             </Col>
                         </Row>
                     </Container>
