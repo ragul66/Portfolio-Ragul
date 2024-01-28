@@ -10,7 +10,7 @@ const TopNavbar = () => {
         <>
             <section>
                 <div className='navbar'>
-                    <Navbar>
+                    {/* <Navbar>
                         <Container >
                             <Navbar.Brand href="#home"><img className='Nav-image' src='./src/assets/logo.jpg' /></Navbar.Brand>
                             <div className="nav-item">
@@ -20,7 +20,7 @@ const TopNavbar = () => {
                                 <a className='nav-link' >Projects</a>
                             </div>
                         </Container>
-                    </Navbar>
+                    </Navbar> */}
 
                     {/* <div className='row banner'>
                         <div className='col-md-6'>
