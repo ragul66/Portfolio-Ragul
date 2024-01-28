@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Navbar } from 'react-bootstrap';
 import image1 from '../assets/Ragul.png'
 import '../App.css'
 
@@ -9,17 +10,17 @@ const TopNavbar = () => {
         <>
             <section>
                 <div className='navbar'>
-                    {/* <Navbar>
+                    <Navbar>
                         <Container >
                             <Navbar.Brand href="#home"><img className='Nav-image' src='./src/assets/logo.jpg' /></Navbar.Brand>
-                            <div className="nav-item">
-                                <a className='active1' >Home</a>
-                                <a className='nav-link' >About</a>
-                                <a className='nav-link' >PersonalSkills</a>
-                                <a className='nav-link' >Projects</a>
-                            </div>
+                            {/* <ul className="nav-item">
+                                <li><a className='active1' >Home</a></li>
+                                <li><a className='nav-link' >About</a></li>
+                                <li><a className='nav-link' >PersonalSkills</a></li>
+                                <li><a className='nav-link' >Projects</a></li>
+                            </ul> */}
                         </Container>
-                    </Navbar> */}
+                    </Navbar>
 
                     {/* <div className='row banner'>
                         <div className='col-md-6'>
@@ -34,10 +35,10 @@ const TopNavbar = () => {
                     <Container className='banner'>
                         <Row>
                             <Col>
-                                <h1>Lets Get Connected</h1>
+                                <h1>Let's Get Connected</h1>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus distinctio labore vero provident? Voluptatenatus eum placeat necessitatibus sunt earum cum, tenetur illo doloremque ducimus voluptas ipsa officiis totam excepturi.</p>
                                 <a className='btn'>Explore More</a>
-                                <a className='btn' href=''>LinkedIn</a>
+                                <a className='btn' href='https://www.linkedin.com/in/ragul-vasanth-s-m-28a8a224a/'>LinkedIn</a>
                             </Col>
                             <Col>
                                 <img className='image-ragul' src={image1} alt="image" />
