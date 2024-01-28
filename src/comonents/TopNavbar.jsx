@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import image1 from '../assets/Ragul.png'
 import '../App.css'
 
 const TopNavbar = () => {
@@ -41,7 +40,7 @@ const TopNavbar = () => {
                                 <a className='btn' href=''>LinkedIn</a>
                             </Col>
                             <Col>
-                                <img className='image-ragul' src='./src/assets/Ragul.jpg' alt="image" />
+                                <img className='image-ragul' src={image1} alt="image" />
                             </Col>
                         </Row>
                     </Container>
